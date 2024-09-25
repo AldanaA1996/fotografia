@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="index.js"></script>
+    <link rel="stylesheet" href="/trabajos.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactame</title>
+</head>
+<body>
+    <nav class="topnav" id="myTopnav">
+        <a href="index.html">Inicio</a>
+        <a href="trabajos.html">Trabajos</a>
+        <a href="contacto.html">Contactame</a>
+        <a href="javascript:void(0);" class="icon" onclick="cerrarnav()">
+            <i class="fa fa-bars"> Menu </i>
+        </a>
+    </nav>
+    <h1 class="titulo-contacto">Dejame tu consulta</h1>
+    <form name="contact" method="POST" data-netlify="true">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" required><br><br>
+      
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+      
+        <label for="message">Mensaje:</label><br>
+        <textarea id="message" name="message" required></textarea><br><br>
+      
+        <button type="submit" class="btn-form">Enviar</button>
+    </form>
+
+    <div class="contacto">
+        <p>Aldana Albani </p>
+        <p>Email: justsmilefotos@gmail.com</p>
+        <p>Teléfono: (2342) 414208 </p>
+    </div>
+</body>
+</html>
